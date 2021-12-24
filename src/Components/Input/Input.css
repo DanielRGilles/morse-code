@@ -1,0 +1,9 @@
+#morse {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    width: fit-content;
+    min-height: 50px;
+    text-align: start;
+    overflow: scroll;
+}

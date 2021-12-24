@@ -9,8 +9,9 @@ function App() {
       <Header />
     <div className='App'>
       <div></div>
-      <div><Input className='flex flex-col items-center justify-center'/>
-            <Output className='flex flex-col items-center justify-center'/>
+      <div className='flex flex-col'>
+          <Input/>
+          <Output/>
       </div>
       <div></div>
     </div>
