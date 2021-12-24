@@ -4,6 +4,7 @@ import Input from './Components/Input/Input'
 import Output from './Components/Output/Output'
 
 function App() {
+  const {morse} = {}
   return (
     <>
       <Header />
@@ -11,7 +12,7 @@ function App() {
       <div></div>
       <div className='flex flex-col'>
           <Input/>
-          <Output/>
+          <Output morse={morse}/>
       </div>
       <div></div>
     </div>

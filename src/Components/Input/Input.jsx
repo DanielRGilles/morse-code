@@ -5,7 +5,7 @@ export default function Input() {
     return (
         <>
           <label className='mt-4 border-2 bg-slate-200 p-4 rounded-lg  border-black' htmlFor='morse'>Type to live translate: 
-          <input id='morse' name='morse' value={text} onChange={(e) => setText(e.target.value)}/>  </label>
+          <textarea id='morse' name='morse' value={text} onChange={(e) => setText(e.target.value)}/>  </label>
         </>
     )
 }
